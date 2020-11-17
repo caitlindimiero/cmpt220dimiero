@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class P1Module8 {
 
     public static ArrayList<String> split(String s, String delimiters){ // Header
+        // These are individual delimiters
         return new ArrayList<String> (Arrays.asList(s.split(delimiters)));
     }
     public static void main(String[] args) {

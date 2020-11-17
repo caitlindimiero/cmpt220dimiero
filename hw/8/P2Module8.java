@@ -5,7 +5,8 @@ public class P2Module8 {
     public static void main(String args[]) {
         Scanner input = new Scanner(System.in); // To input scanner
         System.out.println("Enter the number of objects: ");
-        int containerCount = input.nextLine();
+        int containerCount = input.nextInt();
+        input.nextLine();
         System.out.println("Enter the weights of the objects: ");
         
         String[] wgts = input.nextLine().split(" ");
